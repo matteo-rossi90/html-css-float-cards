@@ -46,15 +46,20 @@ p.paragraph{
     width: calc((100% / 3) - 30px);
     margin: 0 15px;
     background-color: black;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
     /* debug */
     /* min-height:100px; */
     /* border: 2px solid black; */
 }
 
-/* proprietà ombra */
-.card{
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+/* proprietà card */
+
+.col:hover{
+    background-color: rgba(229,49,112,0.9);
 }
+
+
 
 /* proprietà immagini */
 .box-image img{
