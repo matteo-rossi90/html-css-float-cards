@@ -5,3 +5,23 @@
     box-sizing:border-box;
     font-family:'Fredoka', Courier, monospace
 }
+
+
+#container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* proprietà intestazione */
+h1 {
+    text-align: center;
+    margin: 15px;
+    color: #e53170;
+}
+
+/* proprietà paragrafo iniziale */
+
+.paragraph{
+    text-align:center;
+    margin-top: 40px;
+}
