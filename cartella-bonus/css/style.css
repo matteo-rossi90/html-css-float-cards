@@ -48,6 +48,7 @@ p.paragraph{
     background-color: black;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
     cursor: pointer;
+    transition: 0.3s;
     /* debug */
     /* min-height:100px; */
     /* border: 2px solid black; */
@@ -91,4 +92,55 @@ h5.job, h5.mail{
 
 h5.mail{
     color: rgb(0, 187, 255);
+}
+
+/* proprietà skill */
+
+div.row-skill{
+    margin-top: 40px;
+}
+
+.row-skill:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.col-skill{
+    /* min-height: 500px; */
+    width: calc((100% / 3) - 20px);
+    margin: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color:rgb(197, 235, 248);
+    float: left;
+    text-align: center;
+}
+
+.box-skill{
+    width: 200px;
+    height: 200px;
+    margin: 0 80px;
+}
+
+div.text-skill{
+    padding: 10px;
+}
+
+#cloud{
+    background-image: url('../img/cloud.png');
+    background-size: cover;
+    padding: 8px;
+}
+
+#gear {
+    background-image: url('../img/gear.png');
+    background-size: cover;
+    padding: 8px;
+}
+
+#bulb {
+    background-image: url('../img/bulb.png');
+    background-size: cover;
+    padding: 8px;
 }
