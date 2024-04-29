@@ -9,7 +9,7 @@
 
 #container{
     margin: 0 auto;
-    width: 70%;
+    width: 75%;
 }
 
 /* proprietà intestazione */
@@ -21,7 +21,60 @@ h1 {
 
 /* proprietà paragrafo iniziale */
 
-.paragraph{
+
+p.paragraph{
     text-align:center;
-    margin-top: 40px;
+    margin: 40px 0;
+}
+
+/* proprietà riga */
+
+.row{
+    margin: 40px 0;
+}
+
+.row:after{
+    content: '';
+    display: table;
+    clear:both;
+}
+
+/* proprietà colonne */
+
+.col{
+    float: left;
+    width: calc((100% / 3) - 30px);
+    margin: 0 15px;
+    /* debug */
+    background-color: violet;
+    min-height:100px;
+    border: 2px solid black;
+}
+
+.box-image{
+    float: left;
+    /* debug */
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+div.text{
+    display: inline-block;
+    /* debug */
+    border: 1px solid rgb(255, 0, 0);
+    min-height: 100px;
+    width: calc(100% - 100px);
+}
+
+h4, h5{
+    margin: 10px;
+}
+
+h5.job, h5.mail{
+    font-weight:lighter;
+}
+
+h5.mail{
+    color:aqua;
 }
