@@ -1,0 +1,89 @@
+/* proprietà di base */
+
+*{
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Fredoka', Courier, monospace
+}
+
+
+#container{
+    margin: 0 auto;
+    width: 75%;
+}
+
+/* proprietà intestazione */
+h1 {
+    text-align: center;
+    margin: 15px;
+    color: #e53170;
+}
+
+/* proprietà paragrafo iniziale */
+
+
+p.paragraph{
+    text-align:center;
+    margin: 40px 0;
+}
+
+/* proprietà riga */
+
+.row{
+    margin: 40px 0;
+}
+
+.row:after{
+    content: '';
+    display: table;
+    clear:both;
+}
+
+/* proprietà colonne */
+
+.col{
+    float: left;
+    width: calc((100% / 3) - 30px);
+    margin: 0 15px;
+    background-color: black;
+    /* debug */
+    /* min-height:100px; */
+    /* border: 2px solid black; */
+}
+
+/* proprietà ombra */
+.card{
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+/* proprietà immagini */
+.box-image img{
+    float: left;
+    width: 30%;
+    /* debug */
+    /* border: 1px solid white; */
+    /* background-color: blue; */
+}
+
+/* proprietà contatti membro */
+div.text{
+    display: inline-block;
+    width: 70%;
+    color: white;
+    /* debug */
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+h4, h5{
+    margin: 15px;
+    line-height: 15px;
+}
+
+h5.job, h5.mail{
+    font-weight:lighter;
+    font-size: 16px;
+}
+
+h5.mail{
+    color: rgb(0, 187, 255);
+}
