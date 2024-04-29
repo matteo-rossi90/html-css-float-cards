@@ -118,9 +118,9 @@ div.row-skill{
 }
 
 .box-skill{
-    width: 200px;
-    height: 200px;
-    margin: 0 70px;
+    height: 150px;
+    width: 150px;
+    margin: 10px calc(35% - 25px);
 }
 
 div.text-skill{
