@@ -51,6 +51,12 @@ p.paragraph{
     /* border: 2px solid black; */
 }
 
+/* proprietà ombra */
+.card{
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+/* proprietà immagini */
 .box-image img{
     float: left;
     width: 30%;
@@ -59,6 +65,7 @@ p.paragraph{
     /* background-color: blue; */
 }
 
+/* proprietà contatti membro */
 div.text{
     display: inline-block;
     width: 70%;
