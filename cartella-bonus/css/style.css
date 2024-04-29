@@ -120,7 +120,7 @@ div.row-skill{
 .box-skill{
     width: 200px;
     height: 200px;
-    margin: 0 80px;
+    margin: 0 70px;
 }
 
 div.text-skill{
@@ -130,17 +130,14 @@ div.text-skill{
 #cloud{
     background-image: url('../img/cloud.png');
     background-size: cover;
-    padding: 8px;
 }
 
 #gear {
     background-image: url('../img/gear.png');
     background-size: cover;
-    padding: 8px;
 }
 
 #bulb {
     background-image: url('../img/bulb.png');
     background-size: cover;
-    padding: 8px;
 }
