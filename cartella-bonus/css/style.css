@@ -44,7 +44,7 @@ p.paragraph{
 .col{
     float: left;
     width: calc((100% / 3) - 30px);
-    margin: 0 15px;
+    margin: 20px 15px;
     background-color: black;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
     cursor: pointer;
