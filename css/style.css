@@ -44,7 +44,7 @@ p.paragraph{
 .col{
     float: left;
     width: calc((100% / 3) - 30px);
-    margin: 0 15px;
+    margin: 20px 15px;
     background-color: black;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
     /* debug */
@@ -63,23 +63,23 @@ p.paragraph{
 
 /* proprietà contatti membro */
 div.text{
-    display: inline-block;
+    float:right;
     width: 70%;
     color: white;
     /* debug */
     /* border: 1px solid rgb(255, 0, 0); */
 }
 
-h4, h5{
+h4, h5, a{
     margin: 15px;
     line-height: 15px;
 }
 
-h5.job, h5.mail{
+h5.job {
     font-weight:lighter;
     font-size: 16px;
 }
 
-h5.mail{
+a{
     color: rgb(0, 187, 255);
 }
